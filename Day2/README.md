@@ -5,4 +5,4 @@
 - Display the information in Terraform output via CLI in format: "Hi <User>, your password is <password>"
 - User value should be taken from an input variable.
 
-Hint: Make use for “random_password” resource.
+*Hint: Make use for “random_password” resource.*
