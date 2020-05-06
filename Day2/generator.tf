@@ -9,5 +9,5 @@ resource "random_password" "password" {
 
 output "Message" {
   value = format("Hi %s, your password is %s", var.user, random_password.password.result)
-  description = "Custome message"
+  description = "Custom message"
 }
